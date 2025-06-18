@@ -1,0 +1,21 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  description: MyText
+  quantity: 1
+  price: 9.99
+  available: false
+  released_at: 2025-06-17 10:11:06
+  expiry_date: 2025-06-17 10:11:06
+  discount: 9.99
+
+two:
+  name: MyString
+  description: MyText
+  quantity: 1
+  price: 9.99
+  available: false
+  released_at: 2025-06-17 10:11:06
+  expiry_date: 2025-06-17 10:11:06
+  discount: 9.99
