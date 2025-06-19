@@ -13,14 +13,14 @@
 ActiveRecord::Schema[8.0].define(version: 2025_06_17_021106) do
   create_table "products", force: :cascade do |t|
     t.string "name"
-    t.text "description"
+    t.text "content"
     t.integer "quantity"
     t.decimal "price"
     t.boolean "available"
     t.datetime "released_at"
-    t.datetime "expiry_date"
     t.decimal "discount"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "image"
   end
 end
